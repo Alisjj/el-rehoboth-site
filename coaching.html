@@ -8,20 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box}
-body{margin:0;background:#FBF6EC}
-a{text-decoration:none}
-img{max-width:100%}
-.erh-bar{padding:14px 32px}.erh-logo{height:72px}.erh-wide{display:flex}.erh-burger{display:none}
-@media (max-width:899px){.erh-bar{padding:10px 20px}.erh-logo{height:60px}.erh-wide{display:none}.erh-burger{display:flex}}
-@media (min-width:900px){.erh-mob{display:none!important}}
-.erh-mob:not([hidden]){display:block}
-
-body{margin:0}
-a:hover{opacity:.88}
-
-</style>
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
@@ -73,20 +60,20 @@ a:hover{opacity:.88}
 
 <!-- YOU MIGHT BE HERE -->
 <section style="background: #FBF6EC; padding: 96px 0 48px;">
-<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; gap: 40px 72px; align-items: flex-start;">
-<div style="flex: 1 1 380px; min-width: 0;">
+<div class="erh-editorial" style="max-width: 1240px; margin: 0 auto; padding: 0 32px;">
+<div class="erh-editorial-copy">
 <div style="font-size: 13px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #8A6212;">Who this is for</div>
 <h2 style="margin: 16px 0 0; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: clamp(36px, 4.6vw, 58px); line-height: 1.05; color: #0F3B2E;">You might be here <span style="font-style: italic; color: #8A6212;">because…</span></h2>
-<div style="margin-top: 36px; width: 100%; max-width: 380px; box-sizing: border-box; padding: 10px; border: 1.5px solid rgba(201,154,46,0.75); border-radius: 210px 210px 28px 28px; background: rgba(255,255,255,0.45); box-shadow: 0 24px 48px rgba(15,59,46,0.16);">
-<div style="border-radius: 200px 200px 20px 20px; overflow: hidden;">
-<img src="assets/coaching-window.jpg" alt="A woman reading quietly on a bright window sill" style="display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 40%;">
-</div>
-</div>
-</div>
-<div style="flex: 1 1 420px; min-width: 0;">
+<div style="margin-top: 28px;">
 <div style="padding: 22px 0; border-top: 1px solid rgba(15,59,46,0.18); font-family: 'Cormorant Garamond', serif; font-size: 28px; line-height: 1.25; color: #0F3B2E;">You are carrying invisible mental battles.</div>
 <div style="padding: 22px 0; border-top: 1px solid rgba(15,59,46,0.18); font-family: 'Cormorant Garamond', serif; font-size: 28px; line-height: 1.25; color: #0F3B2E;">You feel the pressure to prove your worth.</div>
 <div style="padding: 22px 0; border-top: 1px solid rgba(15,59,46,0.18); border-bottom: 1px solid rgba(15,59,46,0.18); font-family: 'Cormorant Garamond', serif; font-size: 28px; line-height: 1.25; color: #0F3B2E;">Your peace slips when your eyes drift from God.</div>
+</div>
+</div>
+<div class="erh-editorial-photo" style="box-sizing: border-box; padding: 10px; border: 1.5px solid rgba(201,154,46,0.75); border-radius: 210px 210px 28px 28px; background: rgba(255,255,255,0.45); box-shadow: 0 24px 48px rgba(15,59,46,0.16);">
+<div style="border-radius: 200px 200px 20px 20px; overflow: hidden;">
+<img src="assets/coaching-window.jpg" alt="A woman reading quietly on a bright window sill" style="display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 40%;">
+</div>
 </div>
 </div>
 </section>
@@ -98,7 +85,7 @@ a:hover{opacity:.88}
 <div style="font-size: 13px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #8A6212;">How it works</div>
 <h2 style="margin: 14px 0 0; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: clamp(34px, 4vw, 50px); line-height: 1.1; color: #0F3B2E;">A sanctuary of deep, unconditional listening</h2>
 </div>
-<div style="display: flex; flex-wrap: wrap; gap: 24px;">
+<div class="erh-card-grid">
 <article style="flex: 1 1 300px; min-width: 0; box-sizing: border-box; padding: 36px 32px; border-radius: 22px; background: #EDF1E6; border: 1px solid rgba(15,59,46,0.16);">
 <div style="font-family: 'Cormorant Garamond', serif; font-size: 48px; font-weight: 600; line-height: 1; color: #8A6212;">01</div>
 <h3 style="margin: 18px 0 0; font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 32px; line-height: 1.1; color: #0F3B2E;">Quiet the noise</h3>
@@ -139,19 +126,8 @@ a:hover{opacity:.88}
 <!-- WHAT TO EXPECT -->
 <section style="background: #FBF6EC; padding: 88px 0 24px;">
 <div style="max-width: 1240px; margin: 0 auto; padding: 0 32px;">
-<div style="display: flex; flex-wrap: wrap; gap: 0; border: 1px solid rgba(15,59,46,0.2); border-radius: 22px; overflow: hidden;">
-<div style="flex: 1 1 260px; min-width: 0; box-sizing: border-box; padding: 32px; background: #FFFFFF;">
-<div style="font-size: 13px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #8A6212;">Format</div>
-<div style="margin-top: 10px; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: #0F3B2E;">[ONLINE / IN PERSON]</div>
-</div>
-<div style="flex: 1 1 260px; min-width: 0; box-sizing: border-box; padding: 32px; background: #FFFFFF;">
-<div style="font-size: 13px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #8A6212;">Length</div>
-<div style="margin-top: 10px; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: #0F3B2E;">[SESSION LENGTH]</div>
-</div>
-<div style="flex: 1 1 260px; min-width: 0; box-sizing: border-box; padding: 32px; background: #FFFFFF;">
-<div style="font-size: 13px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #8A6212;">Investment</div>
-<div style="margin-top: 10px; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: #0F3B2E;">[PRICE]</div>
-</div>
+<div class="erh-preview-notice" style="text-align: center;">
+<strong>Session details coming soon.</strong> Format, length and pricing are being finalised &mdash; send a message through the contact page and we will share everything before you book.
 </div>
 </div>
 </section>
@@ -164,6 +140,12 @@ a:hover{opacity:.88}
 <div style="margin-top: 32px;">
 <a href="contact.html" style="height: 54px; padding: 0 32px; border-radius: 999px; background: #0F3B2E; color: #FBF6EC; display: inline-flex; align-items: center; font-size: 14px; font-weight: 600; letter-spacing: 0.1em; text-decoration: none; text-transform: uppercase;">Book a coaching call</a>
 </div>
+</div>
+</section>
+
+<section style="background: #FBF6EC; padding: 0 0 48px;">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 32px;">
+<p class="erh-preview-note" style="text-align: center;">Design preview &mdash; the founder&rsquo;s story, coaching session details, product prices and contact details are still being finalised.</p>
 </div>
 </section>
 
@@ -182,32 +164,18 @@ a:hover{opacity:.88}
 <a href="shop.html" style="color: rgba(251,246,236,0.9); padding: 12px 0; text-decoration: none;">Shop</a>
 <a href="contact.html" style="color: rgba(251,246,236,0.9); padding: 12px 0; text-decoration: none;">Contact</a>
 </nav>
-<div style="display: flex; gap: 4px;">
-<a href="#" aria-label="Instagram" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #E2BE6A;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><path d="M17.5 6.5v.01"></path></svg></a>
-<a href="#" aria-label="Facebook" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #E2BE6A;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 8h2V4.5h-2.5A3.5 3.5 0 0 0 10 8v3H8v3.5h2V21h3.5v-6.5h2.3l.5-3.5H13.5V8.7c0-.4.2-.7.5-.7z"></path></svg></a>
-<a href="#" aria-label="YouTube" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #E2BE6A;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="4"></rect><path d="M10 9.5l5 2.5-5 2.5z"></path></svg></a>
-<a href="#" aria-label="Pinterest" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #E2BE6A;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M11 17.5l1.6-7"></path><path d="M9.6 11c.4-2.4 4.4-2.8 4.4.4 0 2-2 3.4-3.6 2.4"></path></svg></a>
-<a href="#" aria-label="LinkedIn" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: #E2BE6A;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"></rect><path d="M8 11v5M8 8v.01M12 16v-5M12 13c0-1.5 1-2 2-2s2 .8 2 2.5V16"></path></svg></a>
-</div>
+<p class="erh-social-note">Our Instagram, Facebook, YouTube, Pinterest and LinkedIn profiles are coming soon.</p>
 </div>
 <div style="margin-top: 28px; padding-top: 20px; border-top: 1px solid rgba(251,246,236,0.16); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-size: 13px; color: rgba(251,246,236,0.74);">
 <span>© 2026 EL REHOBOTH IMPACT LLC. All rights reserved.</span>
-<span style="display: flex; gap: 24px;">
-<a href="#" style="color: rgba(251,246,236,0.86); padding: 4px 0;">Privacy Policy</a>
-<a href="#" style="color: rgba(251,246,236,0.86); padding: 4px 0;">Terms of Service</a>
-</span>
+<span class="erh-legal-note"><span>Privacy Policy</span><span>Terms of Service</span></span>
 </div>
 </div>
 </footer>
 
 </div>
 
-<script>
-(function(){var b=document.querySelector('.erh-burger'),m=document.querySelector('.erh-mob'),i=document.querySelector('.erh-ico');
-if(!b)return;b.addEventListener('click',function(){var o=m.hasAttribute('hidden');if(o){m.removeAttribute('hidden')}else{m.setAttribute('hidden','')}
-b.setAttribute('aria-expanded',o?'true':'false');i.setAttribute('d',o?'M5 5L19 19M19 5L5 19':'M4 7H20M4 12H20M4 17H20');});
-window.addEventListener('resize',function(){if(window.innerWidth>=900){m.setAttribute('hidden','');b.setAttribute('aria-expanded','false')}});})();
-</script>
+<script src="assets/site.js" defer></script>
 
 </body>
 </html>
